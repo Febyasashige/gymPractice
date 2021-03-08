@@ -1,3 +1,12 @@
+body {
+    font-family: "Helvetica Neue",
+    Arial,
+    "Hiragino Kaku Gothic ProN",
+    "Hiragino Sans",
+    "Meiryo",
+    sans-serif;
+}
+
 #site-header {
     display: flex;
     position: fixed;
@@ -39,7 +48,10 @@
 }
 
 .sub-title {
-
+    font-family: "HiraKakuPro-W6", "Meiryo", sans-serif;
+    font-weight: bold;
+    font-size: 42px;
+    color: #ff66a7;
 }
 
 .top-title {
@@ -59,7 +71,23 @@
 }
 
 .request-btn {
+    width: 514px;
+    height: 64px;
+    color: #fff;
+    border-radius: 100vh;
+    background: -moz-linear-gradient(left, #f6c314, #ff65aa);
+    background: -webkit-linear-gradient(left, #f6c314, #ff65aa);
+    background: linear-gradient(to right, #f6c314, #ff65aa);
+}
 
+.request-btn a {
+    font-family: "Noto Sans JP", sans-serif;
+    font-weight: bold;
+    font-size: 25px;
+    position: relative;
+    display: inline-block;
+    text-align: center;
+    padding: 15px 65px;
 }
 
 .model-text {
