@@ -33,7 +33,9 @@
 }
 
 .main-title {
-
+    position: absolute;
+    top: 200px;
+    left: 200px;
 }
 
 .deco-title {
@@ -45,5 +47,25 @@
 }
 
 .top-title {
+    
+}
+
+.description {
+
+}
+
+.str-point {
+
+}
+
+.service-satisfaction {
+
+}
+
+.request-btn {
+
+}
+
+.model-text {
     
 }
